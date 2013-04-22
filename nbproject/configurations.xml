@@ -13,7 +13,6 @@
         </df>
         <in>main.cpp</in>
       </df>
-      <in>main.cpp</in>
     </df>
     <logicalFolder name="ExternalFiles"
                    displayName="重要文件"
@@ -51,13 +50,6 @@
           </incDir>
         </ccTool>
       </folder>
-      <item path="main.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-          <incDir>
-            <pElem></pElem>
-          </incDir>
-        </ccTool>
-      </item>
       <item path="src/datasource/ConnToMysql.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/datasource/ConnToMysql.h" ex="false" tool="3" flavor2="0">
