@@ -1,7 +1,5 @@
 TMP=tmp
 VPATH=main:datasource:3th_commons
-exec:
-    -echo pwd
 test:main.o
     g++ -o $(TMP)/test main.cpp main/*
 	
