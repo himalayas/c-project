@@ -9,7 +9,7 @@
 #include<vector>
 #include<map>
 #include<string>
-#include "main/MainClass.hpp"
+#include "MainClass.hpp"
 using std::cout;
 using std::endl;
 using std::vector;

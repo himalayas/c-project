@@ -25,16 +25,21 @@
             <in>mysql_driver.h</in>
           </df>
           <df name="lib">
+            <in>libmysqlcppconn.so</in>
           </df>
         </df>
       </df>
-      <df name="datasource">
-        <in>ConnToMysql.cpp</in>
-        <in>ConnToMysql.h</in>
+      <df name="src">
+        <df name="datasource">
+          <in>ConnToMysql.cpp</in>
+          <in>ConnToMysql.h</in>
+        </df>
+        <df name="main">
+          <in>MainClass.cpp</in>
+          <in>MainClass.hpp</in>
+        </df>
       </df>
-      <df name="main">
-        <in>MainClass.cpp</in>
-        <in>MainClass.hpp</in>
+      <df name="tmp">
       </df>
       <in>main.cpp</in>
     </df>
