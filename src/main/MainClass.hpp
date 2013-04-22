@@ -4,17 +4,20 @@
  *
  * Created on 2013年3月14日, 下午7:05
  */
+
 #ifndef MAINCLASS_HPP
 #define	MAINCLASS_HPP
+#include<string>
+using std::string;
 class MainClass {
 public:
-    MainClass(int,char*);
+    MainClass(int,string);
     virtual ~MainClass();
     int getAge();
-    char* getName();
+    string getName();
 private:
     int age;
-    char*  name;
+    string  name;
 
 };
 

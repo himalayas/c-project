@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     cout<<m["222"]<<endl;
     cout<<m.size()<<endl;
     cout<<is.size()<<endl;
-    MainClass *mc=new MainClass(12,"中国美国");
+    MainClass * mc=new MainClass(12,"中国美国");
     cout<<mc->getName()<<endl;
     return 0;
 }

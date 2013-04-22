@@ -7,7 +7,7 @@
 
 #include "MainClass.hpp"
 
-MainClass::MainClass(int age,char* name) {
+MainClass::MainClass(int age,string name) {
     this->age=age;
     this->name=name;
 }
@@ -17,7 +17,7 @@ MainClass::~MainClass() {
 int MainClass::getAge(){
     return age;
 }
-char* MainClass::getName(){
+string MainClass::getName(){
     return name;
 }
 
