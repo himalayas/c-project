@@ -6,4 +6,4 @@ main.o:main.cpp
 	g++ -c main.cpp 
 .PHONY:clean
 clean:
-	-rm -rf $(TMP) dist build *.exe *.o
+	-rm -rf dist build *.exe *.o

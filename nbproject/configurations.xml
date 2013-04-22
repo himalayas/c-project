@@ -11,6 +11,7 @@
           <in>MainClass.cpp</in>
           <in>MainClass.hpp</in>
         </df>
+        <in>main.cpp</in>
       </df>
       <in>main.cpp</in>
     </df>
@@ -38,8 +39,8 @@
       <makefileType>
         <makeTool>
           <buildCommandWorkingDir>.</buildCommandWorkingDir>
-          <buildCommand>${MAKE} -f Makefile</buildCommand>
-          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <buildCommand>${MAKE} -f src/Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f src/Makefile clean</cleanCommand>
           <executablePath></executablePath>
         </makeTool>
       </makefileType>
@@ -60,6 +61,13 @@
       <item path="src/datasource/ConnToMysql.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/datasource/ConnToMysql.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </ccTool>
       </item>
       <item path="src/main/MainClass.cpp" ex="false" tool="1" flavor2="4">
         <ccTool>

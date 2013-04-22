@@ -38,8 +38,7 @@
           <in>MainClass.cpp</in>
           <in>MainClass.hpp</in>
         </df>
-      </df>
-      <df name="tmp">
+        <in>main.cpp</in>
       </df>
       <in>main.cpp</in>
     </df>
